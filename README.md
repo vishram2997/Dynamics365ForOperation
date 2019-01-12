@@ -20,7 +20,8 @@ In Visual Studio, build the package that the deleted models belonged to (Visual 
 In Visual Studio, perform a full database synchronization (Visual Studio > Dynamics 365 > Synchronize database...)
 
 
-#Test OData and rest service for D365FO in Local Box /VHD
+# Test OData and rest service for D365FO in Local Box /VHD
+
 1.	Open Dynamics 365FO browser session in chrome and Press F12
  
 2.	Click on console button on right side bar and then use below java script code to test the service.
