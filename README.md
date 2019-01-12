@@ -26,7 +26,9 @@ In Visual Studio, perform a full database synchronization (Visual Studio > Dynam
  
 2.	Click on console button on right side bar and then use below java script code to test the service.
 Example for using CustomerGroup rest service
+
 const bodyGrp = '{"dataAreaId":"3000","CustomerGroupId":"0VV","ClearingPeriodPaymentTermName":"","CustomerAccountNumberSequence":"","DefaultDimensionDisplayValue":"","Description":"Vehicle Vishram","IsSalesTaxIncludedInPrice":"No","WriteOffReason":"","PaymentTermId":"","TaxGroupId":""}'
+
 const response = await fetch('https://usnconeboxax1aos.cloud.onebox.dynamics.com/data/CustomerGroups', {
     method: 'POST',
     body: bodyGrp, // string or object
@@ -36,6 +38,7 @@ const response = await fetch('https://usnconeboxax1aos.cloud.onebox.dynamics.com
   });
   const myJson = await response.json(); 
    console.log(myJson)
+  
 3.	Change example code as per your service and press enter .
  
 
